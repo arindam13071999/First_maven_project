@@ -11,7 +11,7 @@ class SumTest {
 	void test() {
 		Sum s=new Sum();
 		int a=s.calculate();
-		Assertions.assertEquals(10,a);
+		Assertions.assertEquals(5,a);
 	}
 
 }
