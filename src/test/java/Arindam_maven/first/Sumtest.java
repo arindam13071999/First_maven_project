@@ -5,13 +5,13 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class Sumtest {
+class SumTest {
 
 	@Test
-	void testCalculate() {
-		Sum a=new Sum();
-		int s=a.calculate();
-		Assertions.assertEquals(5,s);
+	void test() {
+		Sum s=new Sum();
+		int a=s.calculate();
+		Assertions.assertEquals(10,a);
 	}
 
 }
